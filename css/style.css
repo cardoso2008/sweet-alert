@@ -1,0 +1,22 @@
+body {
+    background-color: beige;
+}
+
+.botao {
+    background-color: cornsilk;
+    border-radius: 10%;
+    font-size: 24px;
+    color: black;
+    width: 12%;
+    height: 3%;
+}
+.titulo {
+    font-size: 44px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chocolate;
+}
+.subTitulo {
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chocolate;
+}

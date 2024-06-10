@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganhe Prêmios</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <center>
+    <h1 class="titulo">Veja as principais loterias do Brasil</h1>
+    <h3 class="subTitulo">Clique no botão e faça sua fézinha</h3>
+    <a href="https://www.telesena.com.br/"><img src="img/teleSena.jpg" alt=""></a>
+    <br><br>
+    <input type="button" value="APOSTE AGORA" onclick="apertar()" class="botao">
+    <br><br>
+    <a href="https://loterias.caixa.gov.br/Paginas/Mega-Sena.aspx"><img src="img/Mega-Sena.jpg" alt=""></a>
+    <br><br>
+    <input type="button" value="APOSTE AGORA" onclick="apertar()" class="botao">
+    <br><br>
+    <a href="https://loterias.caixa.gov.br/Paginas/quina.aspx"><img src="img/QUINA400.jpg" alt=""></a>
+    <br><br>
+    <input type="button" value="APOSTE AGORA" onclick="apertar()" class="botao">
+    <br><br>
+    <a href="https://hipercapmogi.com.br/"><img src="img/images.png" alt=""></a>
+    <br><br>
+    <input type="button" value="APOSTE AGORA" onclick="apertar()" class="botao">
+
+    <script>
+
+        function apertar() {
+ //           alert("Apertouuuu")
+ 
+            Swal.fire({
+            title: "Aposta homologada",
+            text: "Fique alerta com o dia do sorteio.",
+            icon: "info"
+ });
+        }
+
+    </script>
+</center>
+</body>
+</html>
